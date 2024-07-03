@@ -1,0 +1,42 @@
+{
+    "intro": {
+        "presentation": "Hi, I'm Olga",
+        "job": "Fullstack Developer Junior",
+        "intro": "I'm a digital architect with a flair for crafting dynamic, end-to-end web experiences. As a Full Stack Developer, I weave together the art of design and the science of engineering to build intuitive and powerful applications. From pixel-perfect front-end interfaces to robust back-end systems, my toolkit includes HTML, CSS, JavaScript and Python. Every line of code I write is a step towards turning complex ideas into elegant, functional realities. Dive into my portfolio to discover the synergy of creativity and technology in my work."
+    },
+    "experience": "Experience",
+    "cards": {
+        "chess_card": "Design and development of a web application with MongoDB database for tournament and player queries. Main chess club of the city.",
+        "java_card": "Application for client and order management, with role assignment system using JPA with Hibernate, and MySQL relational database."
+    },
+    "education": "Education",
+    "education_items": {
+        "student": {
+            "title": "Bachelor's Degree in Physics",
+            "time": "Currently"
+        },
+        "certificate": {
+            "title": "JAVA OOP Certification",
+            "time": "September, 2023",
+            "description": "Creation of an application for order and client management with MySQL database.",
+            "button": "View Certification"
+        },
+        "english": {
+            "title": "Advanced English Studies",
+            "time": "October, 2023",
+            "description": "Preparation for C1 English certification"
+        }
+    },
+    "contact": "Contact",
+    "placeholder": {
+        "email": "your@email.com",
+        "text": "Write your message here...",
+        "button": {
+            "send": "Send Message",
+            "sending": "Sending...",
+            "sent": "Message Sent!"
+        }
+    },
+    "resume": "/FrontendJuniorEn-cv.pdf"
+  }
+  
