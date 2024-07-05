@@ -1,0 +1,20 @@
+---
+import bio from '../data/bio.json';
+import Form from '../components/form';
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout>
+  <article>
+    <div class='flex items-center my-4'>
+      <div class='flex-grow border-t border-gray-300'></div>
+      <span class='px-4 text-3xl text-gray-700 dark:text-white'
+        >{bio.contact}</span
+      >
+      <div class='flex-grow border-t border-gray-300'></div>
+    </div>
+  </article>
+  <article class='flex justify-center'>
+    <!-- <Form client:load /> -->
+  </article>
+</Layout>
