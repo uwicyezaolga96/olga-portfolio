@@ -1,14 +1,8 @@
 ---
 import Layout from '../../layouts/Layout.astro';
 import bio from '../../data/bio.json';
-// import { getI18N, } from "../../i18n/index"
 import Image from 'astro/components/Image.astro';
-import myImage from '/src/assets/img/Olga.jpg';
-import chessImage from '/src/assets/img/chessclub-website.jpg';
-import loginImage from '/src/assets/img/login.jpg';
-
-// const { currentLocale } = Astro
-// const i18n = getI18N({ currentLocale })
+// import myImage from '/src/assets/img/Olga.jpg';
 ---
 
 <Layout title='Portfolio'>
@@ -204,8 +198,8 @@ import loginImage from '/src/assets/img/login.jpg';
             <div class='ml-auto hidden sm:block'>
               <Image
                 class='rounded-full'
-                src={myImage}
-                alt=''
+              src="/img/olga.jpg"
+                alt='olga img'
                 loading='eager'
                 format='webp'
               />

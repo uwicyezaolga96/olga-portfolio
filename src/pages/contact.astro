@@ -1,6 +1,6 @@
 ---
 import bio from '../data/bio.json';
-import Form from '../components/form';
+import Form from '../components/form.jsx'
 import Layout from '../layouts/Layout.astro';
 ---
 
@@ -15,6 +15,6 @@ import Layout from '../layouts/Layout.astro';
     </div>
   </article>
   <article class='flex justify-center'>
-    <!-- <Form client:load /> -->
+    <Form client:load />
   </article>
 </Layout>
